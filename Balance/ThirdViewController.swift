@@ -42,6 +42,7 @@ class ThirdViewController: UIViewController {
         super.viewDidLoad()
     
         datePicker.datePickerMode = UIDatePickerMode.Date
+        datePickerChanged(datePicker)
         // Do any additional setup after loading the view.
     }
 
